@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fiterp *.css
+recursive-include fiterp *.csv
+recursive-include fiterp *.html
+recursive-include fiterp *.ico
+recursive-include fiterp *.js
+recursive-include fiterp *.json
+recursive-include fiterp *.md
+recursive-include fiterp *.png
+recursive-include fiterp *.py
+recursive-include fiterp *.svg
+recursive-include fiterp *.txt
+recursive-exclude fiterp *.pyc
